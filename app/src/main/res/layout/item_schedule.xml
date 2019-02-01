@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/dimen_24dp"
+            android:layout_height="@dimen/dimen_24dp"
+            android:background="@drawable/orange_ring" />
+
+        <View
+            android:layout_width="@dimen/dimen_1dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@color/lightGray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:orientation="vertical">
+
+        <com.nestnfly.event.custom.TfTextView
+            android:id="@+id/txtTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:30 - 10:00 AM"
+            android:textSize="@dimen/S_TEXT" />
+
+
+        <com.nestnfly.event.custom.TfTextView
+            android:id="@+id/txtSchedule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:text="Registration"
+            android:textColor="@color/black"
+            android:textSize="@dimen/L_TEXT"
+            app:isBold="true" />
+
+
+        <com.nestnfly.event.custom.TfTextView
+            android:id="@+id/txtEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:text="Speaker - Steven Agee"
+            android:textSize="@dimen/N_TEXT"
+            app:isBold="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_16dp"
+                android:layout_height="@dimen/dimen_16dp"
+                android:src="@drawable/location" />
+
+            <com.nestnfly.event.custom.TfTextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Lobby" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

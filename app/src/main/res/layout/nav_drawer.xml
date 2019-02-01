@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg1" />
+
+        <LinearLayout
+            android:id="@+id/llFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_8dp"
+                android:text="Nest N Fly"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:isBold="true" />
+
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business Inovation Session"
+                android:textColor="@color/white"
+                android:textSize="@dimen/N_TEXT"
+                app:isBold="true" />
+
+            <ImageView
+                android:layout_width="@dimen/dimen_18dp"
+                android:layout_height="@dimen/dimen_18dp"
+                android:layout_marginTop="@dimen/dimen_4dp"
+                android:src="@drawable/date" />
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_4dp"
+                android:text="February 9, 2019 TORONTO CANADA"
+                android:textColor="@color/white"
+                android:textSize="@dimen/S_TEXT"
+                app:isBold="true" />
+
+            <ImageView
+                android:layout_width="@dimen/dimen_18dp"
+                android:layout_height="@dimen/dimen_18dp"
+                android:layout_marginTop="@dimen/dimen_4dp"
+                android:src="@drawable/venue" />
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_4dp"
+                android:text="401 Logan Ave #216 Toronto, ON M4M 2N9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/S_TEXT"
+                app:isBold="true" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llHome"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:src="@drawable/home_active"
+            android:tint="@color/colorPrimaryDark" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Home"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/M_TEXT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCheckInView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:id="@+id/llCheckIn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_52dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dimen_18dp"
+                android:layout_height="@dimen/dimen_18dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:src="@drawable/check_in"
+                android:tint="@color/colorPrimaryDark" />
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Check In"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/M_TEXT" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/llMap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:src="@drawable/map"
+            android:tint="@color/colorPrimaryDark" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Map"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/M_TEXT" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/llHost"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:src="@drawable/host_active"
+            android:tint="@color/colorPrimaryDark" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Host"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/M_TEXT" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/llSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:src="@drawable/schedule_active"
+            android:tint="@color/colorPrimaryDark" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Schedule"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/M_TEXT" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/llContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dimen_18dp"
+            android:layout_height="@dimen/dimen_18dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:src="@drawable/contact_active"
+            android:tint="@color/colorPrimaryDark" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Contact Us"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/M_TEXT" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <LinearLayout
+        android:id="@+id/llLoginView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/llLogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_52dp"
+            android:background="@drawable/bottom_bar"
+            android:orientation="horizontal">
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_8dp"
+                android:drawableRight="@drawable/ic_right_arrow"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="@dimen/M_TEXT" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/llRegister"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_52dp"
+            android:background="@drawable/bottom_bar"
+            android:orientation="horizontal">
+
+
+            <com.nestnfly.event.custom.TfTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_8dp"
+                android:drawableRight="@drawable/ic_right_arrow"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/M_TEXT" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/llLogout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_52dp"
+        android:background="@color/offwhite">
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Logout"
+            android:textColor="@color/dark_orange"
+            android:textSize="@dimen/L_TEXT"
+            app:isBold="true" />
+    </LinearLayout>
+
+</LinearLayout>

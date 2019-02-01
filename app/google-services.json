@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "417422653721",
+    "firebase_url": "https://nest-n-fly.firebaseio.com",
+    "project_id": "nest-n-fly",
+    "storage_bucket": "nest-n-fly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417422653721:android:ec3f541dc2e86fa5",
+        "android_client_info": {
+          "package_name": "com.nestnfly.event"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417422653721-qsidl1e2t19nfgbj5utkhgctqk63f3rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJqVz81WuHY2bwYxP3VIMy_UqJdAYLeuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417422653721:android:06d0328d22f91504",
+        "android_client_info": {
+          "package_name": "com.nestnfly.eventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417422653721-qsidl1e2t19nfgbj5utkhgctqk63f3rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJqVz81WuHY2bwYxP3VIMy_UqJdAYLeuA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

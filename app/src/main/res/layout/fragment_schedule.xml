@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:paddingLeft="@dimen/dimen_16dp"
+    android:paddingRight="@dimen/dimen_16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:text="09"
+            android:textColor="@color/dark_orange"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:isBold="true" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:text="February"
+            android:textColor="@color/black"
+            android:textSize="@dimen/S_TEXT" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:text="2019"
+            android:textColor="@color/black"
+            android:textSize="@dimen/S_TEXT" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16dp"
+            android:overScrollMode="never"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:paddingRight="@dimen/dimen_8dp"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

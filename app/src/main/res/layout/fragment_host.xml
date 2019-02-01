@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="@dimen/dimen_72dp"
+                android:layout_height="@dimen/dimen_72dp"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:src="@drawable/img1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:layout_toRightOf="@+id/img1"
+                android:orientation="vertical">
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fabian Cousley"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/L_TEXT" />
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/c_c"
+                    android:textSize="@dimen/S_TEXT" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_toLeftOf="@+id/img2"
+                android:orientation="vertical">
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steaven Agee"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/L_TEXT" />
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Fi Interactive"
+                    android:textSize="@dimen/S_TEXT" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="@dimen/dimen_72dp"
+                android:layout_height="@dimen/dimen_72dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:src="@drawable/img2" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="@dimen/dimen_72dp"
+                android:layout_height="@dimen/dimen_72dp"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:src="@drawable/img3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:layout_toRightOf="@+id/img3"
+                android:orientation="vertical">
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nabil Mensah"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/L_TEXT" />
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Tasttlig Corporation"
+                    android:textSize="@dimen/S_TEXT" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_toLeftOf="@+id/img4"
+                android:orientation="vertical">
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marlon Stephen"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/L_TEXT" />
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="KPDI Ventures"
+                    android:textSize="@dimen/S_TEXT" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="@dimen/dimen_72dp"
+                android:layout_height="@dimen/dimen_72dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:src="@drawable/img4" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="@dimen/dimen_72dp"
+                android:layout_height="@dimen/dimen_72dp"
+                android:layout_marginLeft="@dimen/dimen_16dp"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:src="@drawable/img5" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dimen_16dp"
+                android:layout_toRightOf="@+id/img5"
+                android:orientation="vertical">
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aures Tchana"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/L_TEXT" />
+
+                <com.nestnfly.event.custom.TfTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Loopsight Company Inc."
+                    android:textSize="@dimen/S_TEXT" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

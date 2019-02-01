@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#475462</color>
+    <color name="colorPrimaryDark">#28313C</color>
+    <color name="colorAccent">#8DC63F</color>
+
+    <color name="yellow">#FFE400</color>
+    <color name="green">#8DC63F</color>
+    <color name="blue">#04B9FF</color>
+    <color name="red">#db0a0a</color>
+    <color name="purple">#952C92</color>
+    <color name="black">#000000</color>
+
+    <color name="color_info">#29B6F6</color>
+    <color name="color_success">#7DBC3A</color>
+    <color name="color_warning">#FFA726</color>
+    <color name="color_error">#EF5350</color>
+    <color name="orange">#FF9338</color>
+    <color name="dark_orange">#E96221</color>
+
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="offwhite">#F3F3F3</color>
+    <color name="darkColor">#323232</color>
+    <color name="lightGray">#A0AAB2</color>
+    <color name="gray">#E1E1E1</color>
+    <color name="darkGray">#6b6a6a</color>
+
+    <color name="btn_cancel_color">#999999</color>
+    <color name="btn_confirm_color">#303F9F</color>
+
+
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="default_blue_light">#ff33b5e5</color>
+    <color name="blue_home_banner">#3765BA</color>
+
+    <color name="bottomDark">#28313C</color>
+    <color name="bottomLight">#475462</color>
+
+    <color name="inactive">#656C74</color>
+
+
+</resources>

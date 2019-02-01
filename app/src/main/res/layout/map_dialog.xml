@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardElevation="@dimen/dimen_8dp"
+    app:cardCornerRadius="@dimen/dimen_8dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="@dimen/dimen_32dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_toRightOf="@+id/llData"
+        android:padding="@dimen/dimen_8dp"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@color/black" />
+
+    <LinearLayout
+        android:padding="@dimen/dimen_16dp"
+        android:id="@+id/llData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgClose"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="february 9, 2019"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:isBold="true" />
+
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="401 Logan Ave"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/VS_TEXT" />
+
+        <com.nestnfly.event.custom.TfTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toronto, ON M4M 2N9"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/VS_TEXT" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
