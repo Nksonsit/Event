@@ -40,7 +40,7 @@ public class MapFragment extends BaseFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_home, container, false);
+        view = inflater.inflate(R.layout.fragment_map, container, false);
         initilizeMap();
         return view;
     }
@@ -59,13 +59,6 @@ public class MapFragment extends BaseFragment {
 
                     Log.e("check", check + "");
 
-                    View locationButton = ((View) mapFragment.getView().findViewById(Integer.parseInt("1")).getParent()).findViewById(Integer.parseInt("2"));
-                    RelativeLayout.LayoutParams rlp = (RelativeLayout.LayoutParams) locationButton.getLayoutParams();
-// position on right bottom
-                    rlp.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout.TRUE);
-                    rlp.setMargins(0, 300, 180, 180);
-
-
                     googleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
                         @Override
                         public boolean onMarkerClick(Marker marker) {
@@ -78,7 +71,6 @@ public class MapFragment extends BaseFragment {
                     MarkerOptions markerOptions = new MarkerOptions();
                     markerOptions.position(latLng);
                     mMap.clear();
-                    markerOptions.title("Current Position");
                     markerOptions.icon(BitmapDescriptorFactory.fromResource(R.drawable.location));
                     mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 16));
 

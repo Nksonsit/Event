@@ -28,6 +28,6 @@ public class CustomInfoWindowGoogleMap implements GoogleMap.InfoWindowAdapter {
                 .inflate(R.layout.map_dialog, null);
         ImageView imageView = view.findViewById(R.id.imgClose);
 
-        return null;
+        return view;
     }
 }

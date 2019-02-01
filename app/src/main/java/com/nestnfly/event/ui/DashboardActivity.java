@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.nestnfly.event.R;
@@ -47,6 +48,11 @@ public class DashboardActivity extends BaseActivity {
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navView = (LinearLayout) findViewById(R.id.nav_view);
+//        navView.setLayoutParams(new LinearLayout.LayoutParams(screenWidth - 80, ViewGroup.LayoutParams.MATCH_PARENT));
+        DrawerLayout.LayoutParams ll = new DrawerLayout.LayoutParams(screenWidth - 100, ViewGroup.LayoutParams.MATCH_PARENT);
+        ll.gravity = Gravity.START;
+        navView.setLayoutParams(ll);
+
         navView.removeAllViews();
 
         customNavView = LayoutInflater.from(this).inflate(R.layout.nav_drawer, null, false);
